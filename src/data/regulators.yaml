@@ -3138,6 +3138,17 @@ countries:
           tr: "E-posta: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
           zh-CN: "电子邮件：[info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
           zh-TW: "電子郵件：[info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
+  - id: egypt
+    name:
+        ar: "جمهورية مصر العربية"
+        en: "Egypt"
+    items:
+    - text:
+        ar: "تواصل مع [جهاز حماية المنافسة](https://eca.org.eg/ar-eg)"
+        en: "Contact the [Egyptian Competition Authority](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
+    - text:
+        ar: "[info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org) :البريد الإلكتروني"
+        en: "Email: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
   - id: hungary
     name:
       en: "Hungary"
