@@ -12,7 +12,7 @@ import ShareRow from '../components/ShareRow.astro';
 import signatures from '../data/signatures.yaml';
 import { logoPath } from '../lib/signatures';
 import { getLandingStrings, getTranslationPercent } from '../i18n/locales';
-import { markdownify } from '../i18n/config';
+import { markdownify, languages } from '../i18n/config';
 import '../styles/landing.css';
 import techPressQuotes from '../data/quotes/tech-press.yaml';
 import editorialQuotes from '../data/quotes/editorials.yaml';
@@ -344,15 +344,15 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
             <li><a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" target="_blank">{t.footer_report_issues} &#8599;</a></li>
           </ul>
         </div>
-        <div class="footer-col">
+        <div id="translations" class="footer-col">
           <h4>{t.footer_translations}</h4>
           <ul>
             <li><a href={ctaPath}>{t.footer_languages}</a></li>
-            <li><a href={translateUrl} target="_blank">{t.footer_help_translate}{translatePct < 100 && ` (${translatePct}%)`} &#8599;</a></li>
+            <li><a href={translateUrl} target="_blank">{t.footer_help_translate}{translatePct < 100 && ` (${translatePct}% ${(languages as any)[locale].label})`} &#8599;</a></li>
           </ul>
         </div>
       </div>
-      <div class="footer-legal">
+      <div id="disclaimers" class="footer-legal">
         <p><Fragment set:html={markdownify(t.site_disclaimer)} /></p>
         <p><Fragment set:html={markdownify(t.site_privacy)} /></p>
         <p><Fragment set:html={markdownify(t.site_copyright)} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0" style="max-width: 1em; max-height: 1em; margin-left: .2em;"><img src="/img/zero.svg" alt="Zero" style="max-width: 1em; max-height: 1em; margin-left: .2em;"></p>
