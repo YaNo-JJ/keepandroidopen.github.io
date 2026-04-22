@@ -30,77 +30,128 @@
 # ==========================================================================
 
 # Meta
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Zure mugikorrak zurea izateari utziko dio. 2026ko irailean, Google-ek beraiekin izena eman ez duen aplikazio garatzaile guztien Android aplikazioak bloketuko ditu."
 
 # Hero
+# [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Zure mugikorrak zurea izateari utziko dio."
+# [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "egun blokeorako"
+# [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
   2026ko irailetik hasita, Google-ek bultzatutako baimenik gabeko eguneraketa isil batek, Google-ekin izena eman, beraien kontratua sinatu eta ordaindu ez duten garatzaileen **Android aplikazio guztiak blokeatuko ditu**.
+# [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Aplikazio guztiak eta gailu guztiak, mundu osoan zehar, bazterketarik gabe."
 
 # What Google is doing
+# [en] what_heading: "What Google is doing"
 what_heading: "Zer ari den Google egiten"
+# [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
   2025eko abustuan, Google-ek irizpide berri bat [adierazi zuen](https://developer.android.com/developer-verification): 2026 irailetik hasita, **Android aplikazioen garatzaile guztiek Googlekin izena emanda egon behar dira** beraien softwarea edozein gailuetan instalatu ahal izan aurretik. Ez bakarrik Play Store-eko aplikazioak: aplikazio guztiak. Hau, lagunen artean partekatutako aplikazioak, [F-Droid](https://f-droid.org) bidez banatutakoak, afizionatuek erabilera pertsonalerako egindakoak barneratzen ditu. Garatzaile independenteak, talde komunitarioak eta afizionatuak beraien softwarea garatzeko eta banatzeko aukeratik ukatuak izango dira.
+# [en] what_registration: "Registration requires:"
 what_registration: "Izena emateako irizpideak:"
+# [en] what_req_fee: "Paying a fee to Google"
 what_req_fee: "Google-i kuota bat oraintzea"
+# [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
 what_req_terms: "Google-en zehaztapen eta baldintzak onartzea"
+# [en] what_req_id: "Surrendering your government-issued identification"
 what_req_id: "Zure Nortasun Agiri Nazionala ematea"
+# [en] what_req_signing: "Providing evidence of your private signing key"
 what_req_signing: "Zure sinatzeko klabe pribatua egiaztatzeko probak ematea"
+# [en] what_req_appids: "Listing all current and all future application identifiers"
 what_req_appids: "Aplikazioaren oraingo eta etorkizuneko identifikatzaile guztiak zerrendatzea"
+# [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
 what_pullquote: "Garatzaile batek ez badu betetzen, bere aplikazio guztiak isilean blokeatzen dira Android gailu guztietan mundu osoan zehar."
 
 # Who this hurts
+# [en] impact_heading: "Who this hurts"
 impact_heading: "Nor da kaltetua"
+# [en] impact_you_heading: "You"
 impact_you_heading: "Zu"
+# [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
 impact_you_p1: "Zuk erosi duzu Android mugikor bat Google-ek irekia zela esan zizulako. Zuk nahi zenuena instalatu ahal zenuen, hori zen akordioa."
+# [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
 impact_you_p2: >-
   Orain Google-ek akordio hori berridazten ari da, atzeraeraginezko izaerarekin, dagoeneko jabe zaren hardwarean. Behin eguneraketa heldu dela, Google-ek onartutako sofwarea bakarrik exekutatu ahalko duzu. Zure mugikorrean: **zure** jabetzakoa, **zuk** ordaindu duzuna.
+# [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "Garatzaile independenteak"
+# [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: "Nerabe baten lehenengo aplikazioa, boluntario baten priatutasunerako tresna, edo konpainia baten ezkutuko beta bertsioa. Ez du azola. 2026ko irala geroztik, ezingo da hauetako batere ez instalatu Google-en onespenik gabe."
+# [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), milaka kode aske eta irekiko aplikazioen etxea dena, [mehatxu "existentziala"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) deitu du. Cory Doctorow-ek ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/) deitzen du.
+# [en] impact_gov_heading: "Governments & civil society"
 impact_gov_heading: "Gobernuak eta gizarte zibila"
+# [en] impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
 impact_gov_p1: >-
   Google-ek erregimen autoritarioek egindako aplikazioen ezabaketa eskaerak betetzeko [dokumentatuta dagoen historia](https://www.aclu.org/news/free-speech/app-store-oligopoly) bat dauka. Programa honekin, zure herrialdearen instituzioetan erabiltzen den softwarea erantzunkizun gabeko atzerritarreko enpresa bakar baten mesetara existituko da.
 impact_gov_p2: >-
   [EFF-k dio](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) aplikazioen gaineko kontrol hau "internetaren zentsurara amaierarik gabe hedatzen den bidea" dela.
 
 # Advanced flow
+# [en] flow_heading: "Google's \"escape hatch\" is a trap door"
 flow_heading: "Google-en \"ihesbidea\" iruzur bat da"
+# [en] flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
 flow_intro: >-
   Google-ek dio "erabiltzaile aurreratuek" egiaztatu gabeko aplikazioak ["instalatzen jarraitu"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) dezaketela. Hona hemen nola den hau benetan:
+# [en] flow_step1: "Delve into System Settings, find Developer Options"
 flow_step1: "Ezarpenetan arakatu, Gailuari Buruzko Informazioa topatu"
+# [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 flow_step2: "Konpilazio-zenbakia **zazpi aldiz** sakatu Garatzaileentzako Aukerak aktibatzeko"
+# [en] flow_step3: "Dismiss scare screens about coercion"
 flow_step3: "Behartzeari buruzko beldurtzeko pantailak baztertu"
+# [en] flow_step4: "Enter your PIN"
 flow_step4: "Zure PIN zenbakia sartu"
+# [en] flow_step5: "Restart the device"
 flow_step5: "Gailua berbiarazi"
+# [en] flow_step6: "**Wait 24 hours**"
 flow_step6: "**24 ordu itxaron**"
+# [en] flow_step7: "Come back, dismiss more scare screens"
 flow_step7: "Bueltatu, beldurtzeko pantaila gehiago baztertu"
+# [en] flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
 flow_step8: "Aukeratu \"aldi baterako baimendu\" (7 egun) edo \"behin betiko onartu\""
+# [en] flow_step9: "Confirm, again, that you understand \"the risks\""
 flow_step9: "Konfirmatu, berriz, \"arriskuak\" ulertzen dituzula"
+# [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
 flow_summary: "Bederatzi pauso. 24 orduko derrigorrezko hozte aldia. *Zu jabe zaren gailu batean softwarea instalatzeko.*"
+# [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
   Oraindik eta okerrago: Prozesu honek **Google Play Services**-en zehar gertatzen da erabat, ez Android sistema eragilean. Google-ek aldatu dezake, areagotu dezake, edo edozein momentutan deseuztatu dezake. Gaurkoz, ez du ez betarik, ez aurrerapenik, ez proba bertsioarik igorri. Blog-post bat eta maketa batzuk bezala baino ez da existitzen.   
 
 # Social button labels
+# [en] spread_label_x: "Post on X"
 spread_label_x: "X-n argitaratu"
+# [en] spread_label_mastodon: "Post on Mastodon"
 spread_label_mastodon: "Mastodon-en argitaratu"
+# [en] spread_label_bluesky: "Post on Bluesky"
 spread_label_bluesky: "Bluesky-n argitaratu"
+# [en] spread_label_linkedin: "LinkedIn"
 spread_label_linkedin: "LinkedIn"
+# [en] spread_label_facebook: "Facebook"
 spread_label_facebook: "Facebook"
 
 # Footer
+# [en] footer_get_involved: "Get involved"
 footer_get_involved: "Parte hartu"
+# [en] footer_take_action: "Take action & resources"
 footer_take_action: "Neurriak eta baliabideak"
+# [en] footer_open_letter: "Open letter"
 footer_open_letter: "Gutun irekia"
+# [en] footer_add_banner: "Add countdown banner"
 footer_add_banner: "Gehitu atzera kontaketaren bandera"
+# [en] footer_sign_petition: "Sign the petition"
 footer_sign_petition: "Sinatu eskaera"
+# [en] footer_contact: "Contact"
 footer_contact: "Kontaktua"
+# [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Webgunearen arazo baten berri eman"
+# [en] footer_translations: "Translations"
 footer_translations: "Itzulpenak"
+# [en] footer_languages: "English (+ 30 languages)"
 footer_languages: "Euskara (+ 30 hizkuntza)"
+# [en] footer_help_translate: "Help translate"
 footer_help_translate: "Lagundu itzultzen"
 
 #
